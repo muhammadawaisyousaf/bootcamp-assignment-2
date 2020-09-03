@@ -21,10 +21,7 @@ jobs:
         
         
       - name : Installing Node JS
-        uses: action/setup-node@v2-beta
+        uses: action/setup-node@v1
       
       - name : Installing yarn
         uses : npm install -g yarn
-      
-      - name : Installing surge
-        uses: npm install -g surge
