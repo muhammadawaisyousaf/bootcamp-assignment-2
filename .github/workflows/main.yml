@@ -22,6 +22,10 @@ jobs:
         
       - name : Installing Node JS
         uses: action/setup-node@v1
-      
+        with:
+          node-version : 12.x 
+   
+        
+        
       - name : Installing yarn
         uses : npm install -g yarn
