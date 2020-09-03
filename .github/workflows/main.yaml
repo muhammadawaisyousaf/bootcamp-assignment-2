@@ -25,4 +25,4 @@ jobs:
         with:
           node-version : 12.x
       - name : Yarn Installation       
-        uses: npm install -g yarn
+        uses: apt-get install yarn
