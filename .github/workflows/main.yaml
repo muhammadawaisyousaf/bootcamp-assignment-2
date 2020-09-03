@@ -24,5 +24,3 @@ jobs:
         uses: action/setup-node@v1
         with:
           node-version : 12.x
-      - name : Yarn Installation       
-        uses: apt-get install yarn
