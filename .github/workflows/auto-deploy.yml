@@ -40,4 +40,4 @@ jobs:
         run: npm install -g surge
         
       - name : Deploying on Surge
-        run: surge ./build http://awais-bootcamp-assignment-2.surge.sh/ "daeade17b4f7c6cf7c20d860d0a56feb"
+        run: surge ./build http://awais-bootcamp-assignment-2.surge.sh/ --token "daeade17b4f7c6cf7c20d860d0a56feb"
